@@ -20,4 +20,7 @@ $(document).ready(function () {
     $(".stream3").removeClass("highlight_stream");
     $(".stream3").addClass("highlight_stream");
   });
+  $(".stream3").click(function () {
+    $("img").slideUp(2000).slideDown(2000);
+  });
 });
